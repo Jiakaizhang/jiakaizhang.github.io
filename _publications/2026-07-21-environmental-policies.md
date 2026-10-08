@@ -2,7 +2,7 @@
 title: "Han, H., & Zhang, J. (2026). Environmental Policies and Wage Inequality: Evidence From China's Low‐Carbon City Policy. Scottish Journal of Political Economy, e70081."
 collection: publications
 category: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2026-07-21-environmental-policies
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 # date: 2026-07-21
 # venue: 'Scottish Journal of Political Economy'
