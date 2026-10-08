@@ -88,7 +88,7 @@ publication_category:
     title: 'Publications'    
   working_papers:
     title: 'Working Papers'
-  working_inprogress:
+  working_in_progress:
     title: 'Working in Progress'
 
 # Site Settings
