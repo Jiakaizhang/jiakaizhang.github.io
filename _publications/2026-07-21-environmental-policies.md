@@ -3,6 +3,7 @@ title: "Han, H., & Zhang, J. (2026). Environmental Policies and Wage Inequality:
 collection: publications
 category: publications
 permalink: /publication/2026-07-21-environmental-policies
+link: https://onlinelibrary.wiley.com/doi/full/10.1111/sjpe.70081
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 # date: 2026-07-21
 # venue: 'Scottish Journal of Political Economy'
