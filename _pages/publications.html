@@ -19,7 +19,16 @@ author_profile: true
         {% assign title_shown = true %}
       {% endunless %}
 
-      {% if post.authors %}
+      {% if post.coauthors %}
+        <ul>
+          <li>
+            <a href="{{ post.paperurl }}">{{ post.title }}</a>,
+            with {{ post.coauthors }},
+            <em>{{ post.venue }}</em> ({{ post.year }})
+            {{ post.article_number }}.
+          </li>
+        </ul>
+      {% elsif post.authors %}
         <ul>
           <li>
             {{ post.authors }} ({{ post.year }}).
@@ -36,7 +45,16 @@ author_profile: true
 {% else %}
   {% for post in site.publications reversed %}
 
-    {% if post.authors %}
+    {% if post.coauthors %}
+      <ul>
+        <li>
+          <a href="{{ post.paperurl }}">{{ post.title }}</a>,
+          with {{ post.coauthors }},
+          <em>{{ post.venue }}</em> ({{ post.year }})
+          {{ post.article_number }}.
+        </li>
+      </ul>
+    {% elsif post.authors %}
       <ul>
         <li>
           {{ post.authors }} ({{ post.year }}).

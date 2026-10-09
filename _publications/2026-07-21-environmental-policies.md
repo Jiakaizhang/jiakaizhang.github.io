@@ -1,6 +1,6 @@
 ---
 title: "Environmental Policies and Wage Inequality: Evidence From China's Low-Carbon City Policy"
-authors: "Han, H., & Zhang, J."
+coauthors: '<a href="https://www.nse.pku.edu.cn/en/People/PostdoctoralFellows/08c0b492f77b450b9ddc3dee163e0fe5.htm">Hongfang Han.</a>'
 year: 2026
 venue: "Scottish Journal of Political Economy"
 article_number: "e70081"
