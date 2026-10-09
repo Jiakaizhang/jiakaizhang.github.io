@@ -14,58 +14,34 @@ author_profile: true
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
+
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2>{{ category[1].title }}</h2>
+        <hr />
         {% assign title_shown = true %}
       {% endunless %}
 
-      {% if post.coauthors %}
-        <ul>
-          <li>
-            <a href="{{ post.paperurl }}">{{ post.title }}</a>,
-            with {{ post.coauthors }},
-            <em>{{ post.venue }}</em> ({{ post.year }})
-            {{ post.article_number }}.
-          </li>
-        </ul>
-      {% elsif post.authors %}
-        <ul>
-          <li>
-            {{ post.authors }} ({{ post.year }}).
-            <a href="{{ post.paperurl }}">{{ post.title }}</a>.
-            <em>{{ post.venue }}</em>, {{ post.article_number }}.
-          </li>
-        </ul>
-      {% else %}
-        {% include archive-single.html %}
-      {% endif %}
+      <ul>
+        <li>
+          <a href="{{ post.paperurl | default: post.url | relative_url }}">{{ post.title }}</a>{% if post.coauthors %}, with {{ post.coauthors }}{% endif %}{% if post.authors and post.coauthors == nil %}, {{ post.authors }}{% endif %}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.year %} ({{ post.year }}){% endif %}{% if post.article_number %} {{ post.article_number }}{% endif %}.
+          {% if post.presentations %}
+            <em>Presentations:</em> {{ post.presentations }}.
+          {% endif %}
+        </li>
+      </ul>
 
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-
-    {% if post.coauthors %}
-      <ul>
-        <li>
-          <a href="{{ post.paperurl }}">{{ post.title }}</a>,
-          with {{ post.coauthors }},
-          <em>{{ post.venue }}</em> ({{ post.year }})
-          {{ post.article_number }}.
-        </li>
-      </ul>
-    {% elsif post.authors %}
-      <ul>
-        <li>
-          {{ post.authors }} ({{ post.year }}).
-          <a href="{{ post.paperurl }}">{{ post.title }}</a>.
-          <em>{{ post.venue }}</em>, {{ post.article_number }}.
-        </li>
-      </ul>
-    {% else %}
-      {% include archive-single.html %}
-    {% endif %}
-
+    <ul>
+      <li>
+        <a href="{{ post.paperurl | default: post.url | relative_url }}">{{ post.title }}</a>{% if post.coauthors %}, with {{ post.coauthors }}{% endif %}{% if post.authors and post.coauthors == nil %}, {{ post.authors }}{% endif %}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.year %} ({{ post.year }}){% endif %}{% if post.article_number %} {{ post.article_number }}{% endif %}.
+        {% if post.presentations %}
+          <em>Presentations:</em> {{ post.presentations }}.
+        {% endif %}
+      </li>
+    </ul>
   {% endfor %}
 {% endif %}
 
