@@ -6,7 +6,7 @@ venue: "Scottish Journal of Political Economy"
 article_number: "e70042"
 collection: publications
 category: publications
-permalink: /publication/2026-06-24-Quantifying-Wildfire
+permalink: /publication/2025-12-17-Local-protectionism
 date: 2025-12-17
 paperurl: https://onlinelibrary.wiley.com/doi/full/10.1111/sjpe.70042
 ---
