@@ -8,7 +8,7 @@ collection: publications
 category: publications
 permalink: /publication/2024-08-26-Fiscal-Inequality
 date: 2024-08-26
-paperurl: https://www.mohrsiebeck.com/en/article/the-impact-of-fiscal-inequality-on-economic-growth-evidence-from-shifts-in-chinas-fiscal-system-101628fa-2024-0015/
+paperurl: https://www.mohrsiebeck.com/en/articlethe-impact-of-fiscal-inequality-on-economic-growth-evidence-from-shifts-in-chinas-fiscal-system-101628fa-2024-0015/
 ---
 
 
