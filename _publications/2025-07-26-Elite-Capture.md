@@ -1,7 +1,7 @@
 ---
 title: "Elite Capture or Exclusion? Insights From China's Targeted Poverty Alleviation Strategy"
 coauthors: '<a href="http://en.spap.ruc.edu.cn/staff/faculty1/1bda2084ed634b079fc81a5b02b00c08.htm">Jie Tang</a>, and <a href="https://steinhardt.nyu.edu/people/xia-li">Xia Li</a>'
-year: 2025
+year: 2026
 venue: "Scottish Journal of Political Economy"
 article_number: "e70027"
 collection: publications
