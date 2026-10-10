@@ -23,7 +23,7 @@ author_profile: true
 
       <ul>
   <li>
-    <a href="{{ post.paperurl | default: post.url | relative_url }}">{{ post.title }}</a>{% if post.coauthors != blank %}, with {{ post.coauthors }}{% elsif post.authors != blank %}, {{ post.authors }}{% endif %}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.year %} ({{ post.year }}){% endif %}{% if post.article_number %} {{ post.article_number }}{% endif %}.
+    <a href="{{ post.paperurl | default: post.url | relative_url }}">{{ post.title }}</a>{% if post.coauthors != blank %}, with {{ post.coauthors }}{% endif %}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.year %} ({{ post.year }}){% endif %}{% if post.article_number %} {{ post.article_number }}{% endif %}.
     {% if post.presentations %}
       <em>Presentations:</em> {{ post.presentations }}.
     {% endif %}
@@ -36,7 +36,7 @@ author_profile: true
 {% for post in site.publications reversed %}
 <ul>
   <li>
-    <a href="{{ post.paperurl | default: post.url | relative_url }}">{{ post.title }}</a>{% if post.coauthors != blank %}, with {{ post.coauthors }}{% elsif post.authors != blank %}, {{ post.authors }}{% endif %}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.year %} ({{ post.year }}){% endif %}{% if post.article_number %} {{ post.article_number }}{% endif %}.
+    <a href="{{ post.paperurl | default: post.url | relative_url }}">{{ post.title }}</a>{% if post.coauthors != blank %}, with {{ post.coauthors }}{% endif %}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.year %} ({{ post.year }}){% endif %}{% if post.article_number %} {{ post.article_number }}{% endif %}.
     {% if post.presentations %}
       <em>Presentations:</em> {{ post.presentations }}.
     {% endif %}
