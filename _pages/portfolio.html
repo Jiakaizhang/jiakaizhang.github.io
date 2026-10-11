@@ -7,8 +7,80 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.portfolio-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.portfolio-image {
+  flex: 0 0 200px;
+}
+
+.portfolio-image img {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+.portfolio-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.portfolio-info h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.portfolio-info p {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .portfolio-item {
+    flex-direction: column;
+  }
+}
+</style>
 
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
 
+<div class="portfolio-item">
+
+  {% if post.image %}
+  <div class="portfolio-image">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+  </div>
+  {% endif %}
+
+  <div class="portfolio-info">
+    <h3>{{ post.title }}</h3>
+
+    {% if post.position %}
+      <p>{{ post.position }}</p>
+    {% endif %}
+
+    {% if post.email %}
+      <p>
+        Email:
+        <a href="mailto:{{ post.email }}">{{ post.email }}</a>
+      </p>
+    {% endif %}
+
+    {% if post.excerpt %}
+      <p>{{ post.excerpt }}</p>
+    {% endif %}
+
+  </div>
+
+</div>
+
+{% endfor %}

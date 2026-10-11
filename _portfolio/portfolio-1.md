@@ -1,7 +1,10 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Jiakai Zhang"
 collection: portfolio
+image: /images/500x300.png
+position: "Assistant Professor"
+email: "example@nmsu.edu"
+excerpt: "Research interests include remote sensing, GIScience, and spatial data analysis."
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+
