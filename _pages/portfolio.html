@@ -51,7 +51,14 @@ author_profile: true
 }
 </style>
 
-{% for post in site.portfolio %}
+
+{% assign grouped_people = site.portfolio | group_by: "group" %}
+
+{% for group in grouped_people %}
+
+<h2>{{ group.name }}</h2>
+
+{% for post in group.items %}
 
 <div class="portfolio-item">
 
@@ -69,10 +76,7 @@ author_profile: true
     {% endif %}
 
     {% if post.email %}
-      <p>
-        Email:
-        <a href="mailto:{{ post.email }}">{{ post.email }}</a>
-      </p>
+      <p>Email: <a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
     {% endif %}
 
     {% if post.excerpt %}
@@ -84,3 +88,5 @@ author_profile: true
 </div>
 
 {% endfor %}
+{% endfor %}
+
