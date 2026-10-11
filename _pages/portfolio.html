@@ -56,69 +56,48 @@ author_profile: true
 
 
 
-{% assign grouped_people = site.portfolio | group_by: "group" %}
 
-{% for group in grouped_people %}
+{% assign main_groups = "Principal Investigator|Lab Members|Collaborators" | split: "|" %}
 
-<h2>{{ group.name }}</h2>
+{% for main_group in main_groups %}
 
-{% if group.name == "Lab Members" %}
+  {% assign people = site.portfolio | where: "group", main_group %}
 
-  {% assign student_groups = "Graduate Students|Undergraduate Students" | split: "|" %}
+  {% if people.size > 0 %}
 
-  {% for student_group in student_groups %}
+    <h2>{{ main_group }}</h2>
 
-    {% assign students = group.items | where: "subgroup", student_group %}
+    {% if main_group == "Lab Members" %}
 
-    {% if students.size > 0 %}
+      {% assign subgroups = "Graduate Students|Undergraduate Students" | split: "|" %}
 
-      <h3 class="portfolio-subheading">{{ student_group }}</h3>
+      {% for subgroup in subgroups %}
 
-      {% for post in students %}
+        {% assign members = people | where: "subgroup", subgroup %}
 
-      <div class="portfolio-item">
+        {% if members.size > 0 %}
 
-        {% if post.image %}
-        <div class="portfolio-image">
-          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-        </div>
+          <h3 class="portfolio-subheading">{{ subgroup }}</h3>
+
+          {% for post in members %}
+            {% include portfolio-person.html %}
+          {% endfor %}
+
         {% endif %}
 
-        <div class="portfolio-info">
-          <h3>{{ post.title }}</h3>
+      {% endfor %}
 
-          {% if post.position %}
-            <p>{{ post.position }}</p>
-          {% endif %}
+    {% else %}
 
-          {% if post.email %}
-            <p>Email: <a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
-          {% endif %}
-
-          {% if post.excerpt %}
-            <p>{{ post.excerpt }}</p>
-          {% endif %}
-        </div>
-
-      </div>
-
+      {% for post in people %}
+        {% include portfolio-person.html %}
       {% endfor %}
 
     {% endif %}
 
-  {% endfor %}
+  {% endif %}
 
-{% else %}
-
-  {% for post in group.items %}
-
-  <div class="portfolio-item">
-
-    {% if post.image %}
-    <div class="portfolio-image">
-      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
-    </div>
-    {% endif %}
+{% endfor %}
 
     <div class="portfolio-info">
       <h3>{{ post.title }}</h3>

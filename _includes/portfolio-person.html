@@ -1,0 +1,36 @@
+<div class="portfolio-item">
+
+  {% if post.image %}
+  <div class="portfolio-image">
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+  </div>
+  {% endif %}
+
+  <div class="portfolio-info">
+
+    <h3>{{ post.title }}</h3>
+
+    {% if post.position %}
+      <p>{{ post.position }}</p>
+    {% endif %}
+
+    {% if post.email %}
+      <p>
+        Email:
+        <a href="mailto:{{ post.email }}">{{ post.email }}</a>
+      </p>
+    {% endif %}
+
+    {% if post.excerpt %}
+      <p>{{ post.excerpt }}</p>
+    {% endif %}
+
+    {% if post.project %}
+      <p>
+        <strong>Project:</strong> {{ post.project }}
+      </p>
+    {% endif %}
+
+  </div>
+
+</div>
