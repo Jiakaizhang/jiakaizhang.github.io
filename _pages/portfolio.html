@@ -55,41 +55,93 @@ author_profile: true
 </style>
 
 
+
 {% assign grouped_people = site.portfolio | group_by: "group" %}
 
 {% for group in grouped_people %}
 
 <h2>{{ group.name }}</h2>
 
-{% for post in group.items %}
+{% if group.name == "Lab Members" %}
 
-<div class="portfolio-item">
+  {% assign student_groups = "Graduate Students|Undergraduate Students" | split: "|" %}
 
-  {% if post.image %}
-  <div class="portfolio-image">
-    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+  {% for student_group in student_groups %}
+
+    {% assign students = group.items | where: "subgroup", student_group %}
+
+    {% if students.size > 0 %}
+
+      <h3 class="portfolio-subheading">{{ student_group }}</h3>
+
+      {% for post in students %}
+
+      <div class="portfolio-item">
+
+        {% if post.image %}
+        <div class="portfolio-image">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        </div>
+        {% endif %}
+
+        <div class="portfolio-info">
+          <h3>{{ post.title }}</h3>
+
+          {% if post.position %}
+            <p>{{ post.position }}</p>
+          {% endif %}
+
+          {% if post.email %}
+            <p>Email: <a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
+          {% endif %}
+
+          {% if post.excerpt %}
+            <p>{{ post.excerpt }}</p>
+          {% endif %}
+        </div>
+
+      </div>
+
+      {% endfor %}
+
+    {% endif %}
+
+  {% endfor %}
+
+{% else %}
+
+  {% for post in group.items %}
+
+  <div class="portfolio-item">
+
+    {% if post.image %}
+    <div class="portfolio-image">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    </div>
+    {% endif %}
+
+    <div class="portfolio-info">
+      <h3>{{ post.title }}</h3>
+
+      {% if post.position %}
+        <p>{{ post.position }}</p>
+      {% endif %}
+
+      {% if post.email %}
+        <p>Email: <a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
+      {% endif %}
+
+      {% if post.excerpt %}
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
+    </div>
+
   </div>
-  {% endif %}
 
-  <div class="portfolio-info">
-    <h3>{{ post.title }}</h3>
+  {% endfor %}
 
-    {% if post.position %}
-      <p>{{ post.position }}</p>
-    {% endif %}
-
-    {% if post.email %}
-      <p>Email: <a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
-    {% endif %}
-
-    {% if post.excerpt %}
-      <p>{{ post.excerpt }}</p>
-    {% endif %}
-
-  </div>
-
-</div>
+{% endif %}
 
 {% endfor %}
-{% endfor %}
+
 
