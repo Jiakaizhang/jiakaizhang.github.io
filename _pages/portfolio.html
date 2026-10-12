@@ -57,6 +57,8 @@ author_profile: true
 
 
 
+<!-- Main portfolio groups -->
+
 {% assign main_groups = "Principal Investigator|Lab Members|Collaborators" | split: "|" %}
 
 {% for main_group in main_groups %}
@@ -65,7 +67,9 @@ author_profile: true
 
   {% if people.size > 0 %}
 
-    <h2>{{ main_group }}</h2>
+    <h2 class="portfolio-main-heading">{{ main_group }}</h2>
+
+    <!-- Lab Members: graduate and undergraduate students -->
 
     {% if main_group == "Lab Members" %}
 
@@ -80,7 +84,9 @@ author_profile: true
           <h3 class="portfolio-subheading">{{ subgroup }}</h3>
 
           {% for post in members %}
+
             {% include portfolio-person.html %}
+
           {% endfor %}
 
         {% endif %}
@@ -89,37 +95,17 @@ author_profile: true
 
     {% else %}
 
+      <!-- Principal Investigator and Collaborators -->
+
       {% for post in people %}
+
         {% include portfolio-person.html %}
+
       {% endfor %}
 
     {% endif %}
 
   {% endif %}
-
-{% endfor %}
-
-    <div class="portfolio-info">
-      <h3>{{ post.title }}</h3>
-
-      {% if post.position %}
-        <p>{{ post.position }}</p>
-      {% endif %}
-
-      {% if post.email %}
-        <p>Email: <a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
-      {% endif %}
-
-      {% if post.excerpt %}
-        <p>{{ post.excerpt }}</p>
-      {% endif %}
-    </div>
-
-  </div>
-
-  {% endfor %}
-
-{% endif %}
 
 {% endfor %}
 
