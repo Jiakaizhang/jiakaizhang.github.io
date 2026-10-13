@@ -39,7 +39,7 @@ Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you se
 .sponsor-grid img {
   width: 100%;
   max-width: 220px;
-  height: 150px;
+  height: 200px;
   object-fit: contain;
 }
 
