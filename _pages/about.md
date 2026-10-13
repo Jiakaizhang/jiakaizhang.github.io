@@ -20,8 +20,8 @@ Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you se
 <div class="sponsor-grid">
   <img src="{{ '/images/sponsors/nm_epscor.png' | relative_url }}" alt="EPSCoR">
   <img src="{{ '/images/sponsors/nsf.jpg' | relative_url }}" alt="NSF">
-  <img src="{{ '/images/sponsors/NIH.jpg' | relative_url }}" alt="NIH">
-  <img src="{{ '/images/sponsors/emnrd.jpg' | relative_url }}" alt="EMNRD">
+  <img src="{{ '/images/sponsors/NIH.png' | relative_url }}" alt="NIH">
+  <img src="{{ '/images/sponsors/emnrd.png' | relative_url }}" alt="EMNRD">
 </div>
 
 
