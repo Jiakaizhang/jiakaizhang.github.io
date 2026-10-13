@@ -15,8 +15,6 @@ Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you se
 
 
 
-Sponsored by:
-======
 <h2>Sponsored by:</h2>
 
 <div class="sponsor-grid">
