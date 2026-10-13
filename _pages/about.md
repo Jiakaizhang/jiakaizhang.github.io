@@ -22,27 +22,31 @@ Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you se
   <img src="{{ '/images/sponsors/nsf.jpg' | relative_url }}" alt="NSF">
 </div>
 
+
 <style>
 .sponsor-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: center;
-  gap: 25px;
+  justify-items: center;
+  column-gap: 15px;
+  row-gap: 20px;
   margin: 25px 0;
 }
 
 .sponsor-grid img {
   width: 100%;
-  max-width: 160px;
-  height: 100px;
+  max-width: 220px;
+  height: 150px;
   object-fit: contain;
 }
 
 @media (max-width: 600px) {
   .sponsor-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 </style>
+
 
 
