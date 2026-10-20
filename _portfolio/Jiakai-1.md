@@ -4,8 +4,8 @@ title: "Jiakai Zhang"
 collection: portfolio
 image: /images/golden-retriever_JK.jpg
 position: "Assistant Professor"
-email: "example@nmsu.edu"
-excerpt: "Research interests include remote sensing, GIScience, and spatial data analysis."
+email: "jiakai.zhang@nmt.edu"
+excerpt: "Urban and Regional Development, Environmental Policy and Planning, AI and Spatial Analytics"
 ---
 
 
