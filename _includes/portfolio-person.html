@@ -28,7 +28,14 @@
 
     {% if post.project %}
       <p>
-        <strong>Project:</strong> {{ post.project }}
+        <strong>
+          {% if post.group == "Principal Investigator" or post.group == "Collaborators" %}
+            Research Interests:
+          {% else %}
+            Project:
+          {% endif %}
+        </strong>
+        {{ post.project }}
       </p>
     {% endif %}
 
