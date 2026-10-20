@@ -6,7 +6,7 @@ venue: "Scottish Journal of Political Economy"
 article_number: "e70027"
 collection: publications
 category: publications
-permalink: /publication/2025-07-26-Elite-Capture
+permalink: /research/2025-07-26-Elite-Capture
 date: 2025-07-26
 paperurl: https://onlinelibrary.wiley.com/doi/10.1111/sjpe.70027
 ---

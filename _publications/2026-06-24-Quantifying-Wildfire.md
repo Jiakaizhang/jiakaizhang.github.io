@@ -6,7 +6,7 @@ venue: "Annals of the American Association of Geographers"
 article_number: "1–21"
 collection: publications
 category: publications
-permalink: /publication/2026-06-24-Quantifying-Wildfire
+permalink: /research/2026-06-24-Quantifying-Wildfire
 date: 2026-06-24
 paperurl: https://www.tandfonline.com/doi/full/10.1080/24694452.2026.2681726
 ---

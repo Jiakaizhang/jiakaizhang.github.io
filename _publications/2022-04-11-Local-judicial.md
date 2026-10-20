@@ -6,7 +6,7 @@ venue: "China Economic Quarterly International"
 article_number: "290-303"
 collection: publications
 category: publications
-permalink: /publication/2022-04-11-Local-judicial
+permalink: /research/2022-04-11-Local-judicial
 date: 2022-04-11
 paperurl: https://www.sciencedirect.com/science/article/pii/S2666933122000521
 ---

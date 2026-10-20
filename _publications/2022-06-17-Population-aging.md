@@ -6,7 +6,7 @@ venue: "Economic Inquiry"
 article_number: "1644-1662"
 collection: publications
 category: publications
-permalink: /publication/2022-06-17-Population-aging
+permalink: /research/2022-06-17-Population-aging
 date: 2022-06-17
 paperurl: https://onlinelibrary.wiley.com/doi/10.1111/ecin.13103
 ---

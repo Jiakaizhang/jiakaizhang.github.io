@@ -6,7 +6,7 @@ venue: "Scottish Journal of Political Economy"
 article_number: "e70081"
 collection: publications
 category: publications
-permalink: /publication/2026-07-21-environmental-policies
+permalink: /research/2026-07-21-environmental-policies
 date: 2026-07-21
 paperurl: https://onlinelibrary.wiley.com/doi/full/10.1111/sjpe.70081
 ---

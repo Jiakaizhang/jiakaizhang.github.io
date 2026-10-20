@@ -6,7 +6,7 @@ venue: "International Tax and Public Finance"
 article_number: "1-16"
 collection: publications
 category: publications
-permalink: /publication/2024-04-08-Local-competition
+permalink: /research/2024-04-08-Local-competition
 date: 2024-04-08
 paperurl: https://link.springer.com/article/10.1007/s10797-024-09841-0
 ---

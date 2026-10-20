@@ -6,7 +6,7 @@ venue: "The Annals of Regional Science"
 article_number: "1-25"
 collection: publications
 category: publications
-permalink: /publication/2024-01-28-Carbon-emissions
+permalink: /research/2024-01-28-Carbon-emissions
 date: 2024-01-28
 paperurl: https://link.springer.com/article/10.1007/s00168-023-01255-w
 ---

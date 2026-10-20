@@ -6,7 +6,7 @@ venue: "Cities"
 article_number: "103812"
 collection: publications
 category: publications
-permalink: /publication/2022-06-12-Fertility-intension
+permalink: /research/2022-06-12-Fertility-intension
 date: 2022-06-12
 paperurl: https://www.sciencedirect.com/science/article/pii/S0264275122002517?via%3Dihub
 ---
