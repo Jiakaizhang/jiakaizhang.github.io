@@ -9,10 +9,11 @@ redirect_from:
 
 My name is Jiakai Zhang, and I am an Assistant Professor of Management at New Mexico Tech. I received my Ph.D. in Economics from the Graduate Center, City University of New York (CUNY), in 2022. My research interests lie at the intersection of urban economics and regional development, public finance, environmental science, and artificial intelligence (AI). My work focuses on urban land and housing markets, environmental risks and climate resilience, and place-based public policies and local economic development. I employ spatial econometrics, remote sensing, structural modeling, and machine learning to investigate how public policies and environmental changes affect socioeconomic outcomes. I actively collaborate with researchers in computer science, urban and regional planning, environmental science, geography, and engineering to address complex socioeconomic and environmental challenges. My research has received support from the National Science Foundation (NSF), the National Institutes of Health (NIH), New Mexico EPSCoR, and the New Mexico Energy, Minerals and Natural Resources Department (EMNRD).
 
-Personal Lab
+Research Lab
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I lead the **[Zhang Urban & Spatial Analytics Lab](https://jiakaizhang.github.io/portfolio/)** at New Mexico Tech. Our research integrates **economics, spatial analytics, remote sensing, and artificial intelligence (AI)** to investigate urban and regional development, environmental risks, and public policy. We aim to develop innovative, data-driven approaches to understanding socioeconomic challenges and supporting evidence-based decision-making.
 
+**We are currently recruiting for Fall 2026** and welcome inquiries from motivated students and researchers interested in urban and regional development, AI applications, and environmental risk analysis. Students at New Mexico Tech are encouraged to check departmental announcements for available research opportunities. Interested applicants are welcome to email me their CV and a brief description of their research interests.
 
 
 <h2>Sponsored by:</h2>
