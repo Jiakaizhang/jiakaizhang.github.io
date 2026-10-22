@@ -23,14 +23,14 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Main.png"
   name             : "Jiakai Zhang"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor"
   location         : "Socorro, NM"
   employer         : "New Mexico Tech"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "jiakai.zhang@nmt.edu" 
 
   # Academic websites
   academia         : # URL
