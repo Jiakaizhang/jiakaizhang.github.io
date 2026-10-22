@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is jiakai Zhang and ...
+My name is Jiakai Zhang, and I am an Assistant Professor of Management at New Mexico Tech. I received my Ph.D. in Economics from the Graduate Center, City University of New York (CUNY), in 2022. My research interests lie at the intersection of urban economics and regional development, public finance, environmental science, and artificial intelligence (AI). My work focuses on urban land and housing markets, environmental risks and climate resilience, and place-based public policies and local economic development. I employ spatial econometrics, remote sensing, structural modeling, and machine learning to investigate how public policies and environmental changes affect socioeconomic outcomes. I actively collaborate with researchers in computer science, urban and regional planning, environmental science, geography, and engineering to address complex socioeconomic and environmental challenges. My research has received support from the National Science Foundation (NSF), the National Institutes of Health (NIH), New Mexico EPSCoR, and the New Mexico Energy, Minerals and Natural Resources Department (EMNRD).
 
 Personal Lab
 ======
