@@ -25,7 +25,7 @@ Other Professional Acitivies
 
 Service
 ======
-* Faculty Senate Education and Research Efficiency Committee, ew Mexico Tech, 2023–2027.
+* Faculty Senate Education and Research Efficiency Committee, New Mexico Tech, 2023–2027.
 * Faculty Senate Curriculum Committee,  New Mexico Tech, 2024–2028.
   
 
