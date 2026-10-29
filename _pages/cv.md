@@ -17,13 +17,11 @@ Education
 
 Employment
 ======
-* Assistant Professor (Auguest 2022 - present)
-  * New Mexico Tech
+* Assistant Professor, New Mexico Tech (Auguest 2022 - present)
 
 Other Professional Acitivies
 ======
-* Visiting Student (October 2019 - May 2022)
-  * National Bureau of Economic Research 
+* Visiting Student, National Bureau of Economic Research (October 2019 - May 2022)
 
 Service
 ======
