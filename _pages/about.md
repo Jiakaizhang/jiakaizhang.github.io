@@ -11,7 +11,7 @@ My name is Jiakai Zhang, and I am an Assistant Professor of Management at New Me
 
 Research Lab
 ======
-I lead the **[Zhang Urban & Spatial Analytics Lab](https://jiakaizhang.github.io/portfolio/)** at New Mexico Tech. Our research integrates **economics, spatial analytics, remote sensing, and artificial intelligence (AI)** to investigate urban and regional development, environmental risks, and public policy. We aim to develop innovative, data-driven approaches to understanding socioeconomic challenges and supporting evidence-based decision-making.
+I lead the **[Zhang Urban & Spatial Analytics Lab](https://jiakaizhang.github.io/Lab/)** at New Mexico Tech. Our research integrates **economics, spatial analytics, remote sensing, and artificial intelligence (AI)** to investigate urban and regional development, environmental risks, and public policy. We aim to develop innovative, data-driven approaches to understanding socioeconomic challenges and supporting evidence-based decision-making.
 
 **We are currently recruiting for Fall 2026** and welcome inquiries from motivated students and researchers interested in urban and regional development, AI applications, and environmental risk analysis. Students at New Mexico Tech are encouraged to check departmental announcements for available research opportunities. Interested applicants are welcome to email me their CV and a brief description of their research interests.
 
